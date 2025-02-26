@@ -1108,7 +1108,7 @@ switch ($page) {
             if ($cantiereId && $indirizzo && $type) {
                 require_once 'backend/GooglePlaces.php';
     
-                $googlePlaces = new GooglePlaces('AIzaSyBd8edLXXMfYjUj2BjK5yAsT5Q506fIwfc', $db);
+                $googlePlaces = new GooglePlaces('---------------Your API Key-----------------', $db);
                 $results = $googlePlaces->searchNearbyByAddress($indirizzo, $type, $keyword);
     
                 header('Content-Type: application/json');
