@@ -1,0 +1,14 @@
+#imagePreview {
+    max-width: 100%;
+    height: auto;
+}
+.fotogallery-image {
+    cursor: pointer;
+}
+.delete-image {
+    z-index: 10;
+    opacity: 0.8;
+}
+.delete-image:hover {
+    opacity: 1;
+}
